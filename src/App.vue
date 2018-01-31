@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-      <app-Quote-Grid :quotes="quotes"></app-Quote-Grid>
+      <app-quote-grid :quotes="quotes"></app-quote-grid>
     </div>
 </template>
 
@@ -23,4 +23,5 @@ import QuoteGrid from './components/QuoteGrid.vue';
 </script>
 
 <style>
+  
 </style>

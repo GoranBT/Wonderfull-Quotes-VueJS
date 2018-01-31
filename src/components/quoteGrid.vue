@@ -1,11 +1,11 @@
-<template lang="row">
-  <app-quote v-for="quote in quotes">{{ quote }}</app-quote>
+<template>
+  <div class="row">
+    <app-quote v-for="quote in quotes">{{ quote }}</app-quote>
+  </div>
 </template>
 
 <script>
 import Quote from './Quote.vue';
-
-
 
 export default {
   props: ['quotes'],
@@ -15,5 +15,5 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style>
 </style>
